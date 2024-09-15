@@ -227,6 +227,10 @@ h1,
 /* #region task-6 */
 
 #controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
   border-radius: 8px;
   padding: 32px;
   background-color: #f6f6fe;
@@ -246,7 +250,6 @@ h1,
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #2e2f42;
-  margin: 24px;
 }
 
 #controls > input:hover {

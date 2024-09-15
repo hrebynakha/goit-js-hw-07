@@ -30,6 +30,7 @@ function createBoxes(amount) {
 }
 
 function handleCreateBtn(e) {
+  boxes.innerHTML = "";
   const amount = Number(controllers.numberInput.value);
   controllers.numberInput.value = "";
   if (amount < 1 || amount > 100) {
